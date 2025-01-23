@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
 // Route::get('/home', function (Request $request) {
-//     return view('welcome');
+//     return view('index');
 // })->name('home');
 
 
